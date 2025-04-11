@@ -1,0 +1,23 @@
+# Chuẩn hóa line ending về LF (dùng chung cho mọi hệ điều hành)
+* text=auto eol=lf
+
+# Java code
+*.java text eol=lf
+
+# Config files
+*.xml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Shell script
+*.sh text eol=lf
+
+# Batch files (Windows)
+*.bat text eol=crlf
+
+# Binary files (không chuyển đổi line ending)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
