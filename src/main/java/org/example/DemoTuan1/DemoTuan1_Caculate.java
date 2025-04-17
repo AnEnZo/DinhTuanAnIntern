@@ -1,7 +1,7 @@
-package org.example;
-import java.util.Scanner;
-import java.util.InputMismatchException;
+package org.example.DemoTuan1;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

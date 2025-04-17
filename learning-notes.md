@@ -41,7 +41,96 @@
 - Nắm rõ 4 tính chất OOP.
 - Phân biệt được abstract class và interface.
 ---
+🗓️ Tuần 3: Collection, Exception, String, DateTime
+🧠 Mục tiêu:
+Làm việc được với tập hợp dữ liệu và xử lý ngoại lệ trong Java.
 
-## ✅ Tổng kết sau 2 tuần:
-- Nắm được Java cơ bản và tư duy lập trình hướng đối tượng.
-- Có thể tự xây dựng chương trình Java nhỏ với cấu trúc rõ ràng.
+🔍 Nội dung đã học:
+Collection:
+
+Sử dụng ArrayList, HashSet, HashMap để lưu trữ và truy xuất dữ liệu.
+
+Duyệt qua collection bằng for, foreach, và Iterator.
+
+Exception Handling:
+
+Cấu trúc try-catch-finally để xử lý lỗi.
+
+Tạo ngoại lệ với throw, và xử lý ngoại lệ khai báo với throws.
+
+String Manipulation:
+
+Làm việc với chuỗi: split, substring, replace, equals, contains.
+
+Tối ưu hiệu năng xử lý chuỗi với StringBuilder.
+
+DateTime API:
+
+Làm việc với LocalDate, LocalDateTime.
+
+Định dạng và chuyển đổi chuỗi ngày tháng với DateTimeFormatter.
+
+💡 Demo đã thực hiện:
+Ứng dụng Todo List:
+
+Thêm, xoá, cập nhật công việc theo ngày.
+
+Lưu trữ danh sách công việc bằng ArrayList.
+
+Xử lý ngày tháng với LocalDate, định dạng đầu ra với DateTimeFormatter.
+
+Bắt lỗi nhập sai định dạng với try-catch.
+
+🗓️ Tuần 4: Clean Code, SOLID, Design Pattern cơ bản
+🧠 Mục tiêu:
+Viết code rõ ràng, dễ bảo trì và có khả năng mở rộng tốt.
+
+🔍 Nội dung đã học:
+Clean Code:
+
+Đặt tên biến/hàm dễ hiểu.
+
+Tách hàm nhỏ, rõ mục đích.
+
+Tuân thủ nguyên tắc DRY (Don't Repeat Yourself).
+
+Nguyên lý SOLID:
+
+S - Single Responsibility: Mỗi class chỉ đảm nhiệm một chức năng.
+
+O - Open/Closed: Mở rộng được mà không sửa code cũ.
+
+L - Liskov Substitution: Class con có thể thay thế class cha.
+
+I - Interface Segregation: Interface nhỏ, chuyên biệt.
+
+D - Dependency Inversion: Phụ thuộc vào abstraction, không phụ thuộc implementation cụ thể.
+
+Design Pattern cơ bản:
+
+Singleton: Chỉ tạo một instance duy nhất cho class.
+
+Factory: Tạo đối tượng mà không cần biết class cụ thể.
+
+Strategy: Thay đổi hành vi runtime linh hoạt.
+
+Observer: Theo dõi và phản ứng khi dữ liệu thay đổi.
+
+💡 Demo đã thực hiện:
+Ứng dụng tạo phương tiện:
+
+Sử dụng Factory Pattern để tạo Xe máy, Xe đạp, Xe hơi.
+
+Áp dụng OCP để mở rộng dễ dàng khi thêm loại xe mới.
+
+Sử dụng interface để thể hiện hành vi linh hoạt cho từng loại xe.
+
+Đảm bảo mỗi class chỉ có một trách nhiệm rõ ràng (SRP).
+
+✅ Tổng kết sau 4 tuần:
+Hiểu và sử dụng thành thạo Java Collection, xử lý lỗi, chuỗi và ngày tháng.
+
+Nắm được tư duy Clean Code, SOLID để viết code chất lượng hơn.
+
+Bắt đầu áp dụng được các Design Pattern cơ bản trong dự án nhỏ.
+

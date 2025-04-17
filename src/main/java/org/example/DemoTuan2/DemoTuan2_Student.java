@@ -1,6 +1,8 @@
-package org.example;
+package org.example.DemoTuan2;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 
 @NoArgsConstructor
